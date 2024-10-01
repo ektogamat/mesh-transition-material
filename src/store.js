@@ -12,7 +12,7 @@ const state = proxy({
     '#9E9E9E',
     '#333333',
     '#FFFFFF',],
-  selectedColor: '#ccc',
+  selectedColor: '#FFC107',
 
 })
 
