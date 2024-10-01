@@ -1,0 +1,55 @@
+.overlay-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin-top: 60px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  display: flex;
+  gap: 1rem;
+}
+li.selected {
+  scale: 1.2;
+  border: 2px solid #fff;
+}
+
+li {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  pointer-events: all;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+li:hover {
+  border: 4px solid #fff;
+}
+
+h1 {
+  font-size: 3em;
+  color: #3f7391;
+  margin: 0;
+  padding: 0;
+  line-height: 0.5em;
+}
+
+p {
+  color: #3f7391;
+  opacity: 0.4;
+}
