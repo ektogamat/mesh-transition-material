@@ -39,7 +39,7 @@ export default function Overlay() {
               )
             }
           >
-            BUY NOW
+            BUY NOW - Only $4.99
           </button>
         </div>
       </header>
