@@ -18,7 +18,7 @@ const state = proxy({
     '#DFFF00',  // Verde Scandal (Lime Green)
   ],
   selectedColor: '#FF6F00',
-
+  isMobile: window.innerWidth < 768
 })
 
 export { state }

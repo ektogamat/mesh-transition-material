@@ -96,3 +96,29 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  header {
+    padding: 30px;
+    margin-top: unset;
+  }
+  .buy-button {
+    font-size: 0.8em;
+  }
+  .download-button {
+    font-size: 0.8em;
+  }
+  li {
+    width: 1rem;
+    height: 3rem;
+    border-radius: 6px;
+    pointer-events: all;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+}
