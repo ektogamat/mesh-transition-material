@@ -88,9 +88,9 @@ p {
 }
 
 a {
-  text-decoration: none;
   pointer-events: all;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 a:hover {

@@ -8,9 +8,11 @@ Created by Anderson Mancini 2024
 
 This component is a replacement material for react three fiber that makes a smooth color transition when a change in the "transitionColor" property is detected.
 
-[Action Video](https://youtu.be/0upCVT8kkW8?si=bd_KYXcSFJol43ko)
-[Live Link Demo](https://mesh-transition-material.vercel.app/)
-[Buy Now](https://www.patreon.com/andersonmancini/shop/meshtransitionmaterial-for-react-three-121382?source=storefront)
+<button name="button" onclick="https://youtu.be/0upCVT8kkW8?si=bd_KYXcSFJol43ko" target="_blank">Action Video</button>
+
+<button name="button" onclick="https://mesh-transition-material.vercel.app/" target="_blank">Live Link Demo</button>
+
+<button name="button" onclick="(https://www.patreon.com/andersonmancini/shop/meshtransitionmaterial-for-react-three-121382?source=storefront" target="_blank">Buy it now</button>
 
 <hr />
 

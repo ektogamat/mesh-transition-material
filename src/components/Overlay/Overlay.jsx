@@ -10,7 +10,7 @@ export default function Overlay() {
       <header>
         <h1>Mesh Transition Material</h1>
         <p>
-          Created by anderson mancini
+          Created by anderson mancini - {'  '}
           <a
             onClick={() =>
               window.open(
@@ -18,8 +18,17 @@ export default function Overlay() {
               )
             }
           >
-            {' - '}
             CHECK DOCUMENTATION
+          </a>
+          {' - '}
+          <a
+            onClick={() =>
+              window.open(
+                'https://codesandbox.io/p/sandbox/meshtransitionmaterialfree-l7pzn7'
+              )
+            }
+          >
+            FREE VERSION
           </a>
         </p>
         <div
