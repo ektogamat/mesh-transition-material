@@ -28,6 +28,7 @@ export const Experience = () => {
         target={[0, 0.5, 0]}
         minPolarAngle={1.3}
         maxPolarAngle={Math.PI / 2}
+        enablePan={false}
       />
       <directionalLight
         position={[-2, 2, 1]}
