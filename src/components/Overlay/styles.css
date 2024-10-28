@@ -9,6 +9,7 @@
   pointer-events: none;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 
 header {
@@ -21,7 +22,7 @@ ul {
   padding: 0;
   margin: 0 0 40px 0;
   display: flex;
-  gap: 1rem;
+  gap: 0.4rem;
 }
 li.selected {
   scale: 1.2;
@@ -29,9 +30,9 @@ li.selected {
 }
 
 li {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
+  width: 2rem;
+  height: 6rem;
+  border-radius: 6px;
   pointer-events: all;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -67,6 +68,22 @@ p {
 }
 
 .buy-button:hover {
+  background-color: #3f7391;
+}
+
+.download-button {
+  background-color: #444444;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  pointer-events: all;
+  font-size: 1.2em;
+  font-family: 'Bebas Neue', serif;
+}
+
+.download-button:hover {
   background-color: #3f7391;
 }
 
